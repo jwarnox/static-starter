@@ -1,5 +1,11 @@
 @tailwind base;
 @tailwind components;
+
+/* @font-face {
+    font-family: 'Brand';
+    src: local('Brand'), url(../fonts/brand-font-heavy.woff2) format('woff2');
+} */
+
 @tailwind utilities;
 
 @layer utilities {

@@ -20,6 +20,10 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy('./src/static/images');
+    eleventyConfig.addPassthroughCopy('./src/static/fonts');
+    eleventyConfig.addPassthroughCopy('./src/*.ico');
+    eleventyConfig.addPassthroughCopy('./src/*.png');
+    eleventyConfig.addPassthroughCopy('./src/*.webmanifest');
 
     // eleventyConfig.addPlugin();
 
